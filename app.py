@@ -182,4 +182,3 @@ if submitted:
                         st.metric(label="Match Fit", value=f"{score:.1f}%")
                         if row["url"] and row["url"].startswith("http"):
                             st.markdown(f"[Apply Direct]({row['url'])")
-                    st.markdown("---")
